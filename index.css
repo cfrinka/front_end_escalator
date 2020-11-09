@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  height: 100%;
+}
+.top-banner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;  
+  background-image: url('/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.logo-image img {
+  height: 20rem;
+}
+
+.slogan {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.63);
+}
+ .slogan span {
+   font-weight: bold;
+   text-shadow: none;
+  background: -webkit-linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }   
+
